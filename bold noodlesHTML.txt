@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bold Noodles</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; background:#fff;}
+    header { background:#e53935; color:white; padding:20px; text-align:center;}
+    nav a { color:white; margin: 0 15px; text-decoration:none; font-weight:bold;}
+    section { padding:50px; text-align:center;}
+    .menu-item { display:inline-block; margin:20px; padding:10px; border:1px solid #ccc; border-radius:10px;}
+    footer { background:#222; color:white; padding:20px; text-align:center;}
+    .btn { background:#e53935; color:white; padding:10px 20px; border:none; border-radius:5px; cursor:pointer; text-decoration:none;}
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Bold Noodles</h1>
+    <p>Spicy Noodles, Bold Taste!</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#menu">Menu</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Welcome to Bold Noodles! We serve the spiciest and most delicious noodles in town.</p>
+  </section>
+
+  <section id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-item">
+      <h3>Spicy Chicken Noodles</h3>
+      <p>Hot, tasty, and full of flavor.</p>
+    </div>
+    <div class="menu-item">
+      <h3>Veggie Delight</h3>
+      <p>Fresh vegetables with bold spices.</p>
+    </div>
+    <div class="menu-item">
+      <h3>Cheese Noodles</h3>
+      <p>Cheesy goodness with every bite.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Phone: +91 98765 43210</p>
+    <p>Email: info@boldnoodles.com</p>
+    <a href="mailto:info@boldnoodles.com" class="btn">Email Us</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Bold Noodles. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
